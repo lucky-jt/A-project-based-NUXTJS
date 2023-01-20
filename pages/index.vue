@@ -1,7 +1,18 @@
 <template>
-  <div class="home">
-    <h1>首页</h1>
+  <div>
+    <HomeBar></HomeBar>
+    <div>
+      <NuxtPage></NuxtPage>
+    </div>
   </div>
 </template>
-<style scoped lang="scss">
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  setup() {}
+})
+</script>
+<style lang="scss" scoped>
 </style>
+

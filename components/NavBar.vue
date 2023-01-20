@@ -7,8 +7,8 @@
       </div>
       <div class="nav">
         <NuxtLink to="/" class="nav-item select">首页</NuxtLink>
-        <NuxtLink class="nav-item">沸点</NuxtLink>
-        <NuxtLink class="nav-item">课程</NuxtLink>
+        <NuxtLink  class="nav-item">沸点</NuxtLink>
+        <NuxtLink  class="nav-item">课程</NuxtLink>
         <NuxtLink class="nav-item">直播</NuxtLink>
         <NuxtLink class="nav-item">活动</NuxtLink>
         <NuxtLink class="nav-item">竞赛</NuxtLink>

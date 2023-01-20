@@ -11,5 +11,10 @@ export default defineNuxtConfig({
       ],
     }
   },
-  css: ['@/assets/css/normalize.css']
+  css: ['@/assets/css/normalize.css'],
+  components: {
+    dirs: [
+      '~/components'
+    ]
+  },
 })
