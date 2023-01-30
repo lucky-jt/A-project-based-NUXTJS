@@ -19,3 +19,52 @@
     </div>
   </div>
 </template>
+<style lang="scss" scoped>
+  .header {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #909090;
+    box-shadow: 1px 3px 5px #dddddd;
+    .nav-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      height: 100%;
+      margin: 0 auto;
+      .logo {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        img {
+          margin-right: 8px;
+          cursor: pointer;
+        }
+        p {
+          font-size: 22px;
+          font-weight: 600;
+          cursor: pointer;
+
+        }
+      }
+      .nav {
+        flex: 7;
+        .select {
+          color: #1e80ff;
+        }
+        .nav-item {
+          padding: 18px 15px;
+          text-decoration: none;
+          font-size: 16px;
+          cursor: pointer;
+          &:hover {
+          border-bottom: 2px solid #1e80ff;
+        }
+        }
+      }
+    }
+  }
+</style>
+

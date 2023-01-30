@@ -7,7 +7,11 @@
   </div>
 </div>
 </template>
-<script>
-
-</script>
+<style lang="less" scoped>
+.main{
+  width: 1000px;
+  background-color: pink;
+  margin: 0 auto;
+}
+</style>
 
