@@ -1,14 +1,17 @@
 <template>
-<div>
-  <!-- <h1>这是综合页面</h1> -->
-  <h3>{{this.$route.params}}</h3>
-</div>
+  <div>
+    <template v-if="this.$route.params.category == ':recommend'">
+      <h3>{{ this.$route.params }}</h3>
+      <HomeCategoryRecommend></HomeCategoryRecommend>
+    </template>
+    <template v-if="this.$route.params.category == ':following'">
+      <h3>{{ this.$route.params }}</h3>
+      <HomeCategoryFollowing></HomeCategoryFollowing>
+      <following></following>
+    </template>
+  </div>
 </template>
 <script>
-export default {
-
-}
+export default {}
 </script>
-<style lang='less' scoped>
-
-</style>
+<style lang="less" scoped></style>

@@ -9,7 +9,7 @@
 </template>
 <style lang="less" scoped>
 .out-box {
-  background-color: #f4f5f5;
+  background-color: #000;
   height: 90vh;
 }
 </style>
