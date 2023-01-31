@@ -1,13 +1,12 @@
 <template>
-<div>
-      <nuxt-child></nuxt-child>
-    </div>
+  <div>
+    <nuxt-child></nuxt-child>
+  </div>
 </template>
 
-<script >
+<script>
 import Vue from 'vue'
 export default Vue.extend({
-  layout:'default'
+  layout: 'default'
 })
 </script>
-

@@ -1,16 +1,13 @@
 <template>
-<div>
-      内容
-    </div>
+  <div></div>
 </template>
 
-<script >
+<script>
 import Vue from 'vue'
 export default Vue.extend({
-  layout:'default',
+  layout: 'default',
   asyncData({ redirect }) {
     redirect('/home')
   }
 })
 </script>
-
